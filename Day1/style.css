@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+}
+
+.main {
+  background-image: url("./banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.main .box1 {
+  background-color: rgba(0, 0, 0, 0.478);
+  height: 100%;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.main .box1 .top-logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 80px;
+  gap: 12px;
+}
+.main .box1 .top-logo .aeroplane {
+  background-color: yellow;
+  padding: 20px;
+}
+.main .box1 .top-logo .flight {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+}
+.main .box1 .direction {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 80px;
+  position: relative;
+  top: 60px;
+}
+.main .box1 .social-links {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.main .box1 .social-links .facebook {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.main .box1 .social-links .facebook .link-text {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: white;
+  text-transform: uppercase;
+  padding: 22px;
+  font-size: 20px;
+}
+.main .box1 .social-links .facebook .link-text span {
+  font-weight: 600;
+}
+.main .box1 .social-links .facebook .first-link {
+  background-color: rgba(255, 255, 255, 0.331);
+  padding: 24px;
+}
+.main .box2 {
+  height: 100%;
+  width: 700px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .box2 .inner-box2 {
+  background-color: rgba(255, 255, 255, 0.934);
+  height: 400px;
+  width: 500px;
+  position: relative;
+  padding: 40px;
+}
+.main .box2 .inner-box2 .box-2-heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+.main .box2 .inner-box2 form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+.main .box2 .inner-box2 form .one,
+.main .box2 .inner-box2 form .two {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.main .box2 .inner-box2 form .one .one-one,
+.main .box2 .inner-box2 form .one .one-two,
+.main .box2 .inner-box2 form .one .two-one,
+.main .box2 .inner-box2 form .one .two-two,
+.main .box2 .inner-box2 form .two .one-one,
+.main .box2 .inner-box2 form .two .one-two,
+.main .box2 .inner-box2 form .two .two-one,
+.main .box2 .inner-box2 form .two .two-two {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.main .box2 .inner-box2 form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.main .box2 .inner-box2 form select,
+.main .box2 .inner-box2 form input[type=date] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+.main .box2 .inner-box2 form .three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .box2 .inner-box2 form input[type=radio] {
+  margin-right: 5px;
+}
+.main .box2 .inner-box2 form button {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.main .box2 .inner-box2 form button:hover {
+  background-color: #e0a800;
+}/*# sourceMappingURL=style.css.map */
