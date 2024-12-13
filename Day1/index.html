@@ -1,9 +1,10 @@
+Share You said:
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flight Booking</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -25,23 +26,23 @@
         <div class="direction">Choose Your Direction</div>
 
         <div class="social-links">
-          <div class="social-link">
+          <div class="facebook">
             <div class="link-text">Find Us On <span>Facebook</span></div>
-            <div class="icon">
+            <div class="first-link">
               <i class="fa-brands fa-facebook-f" style="color: #ffffff"></i>
             </div>
           </div>
 
-          <div class="social-link">
-            <div class="link-text">Our <span>YouTube</span> Channel</div>
-            <div class="icon">
+          <div class="facebook">
+            <div class="link-text">Our <span>Youtube</span> Channel</div>
+            <div class="first-link">
               <i class="fa-brands fa-youtube" style="color: #ffffff"></i>
             </div>
           </div>
 
-          <div class="social-link">
+          <div class="facebook">
             <div class="link-text">Follow Our <span>Instagram</span></div>
-            <div class="icon">
+            <div class="first-link">
               <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
             </div>
           </div>
@@ -49,10 +50,10 @@
       </div>
       <div class="box2">
         <div class="inner-box2">
-          <div class="box-2-heading">Check availability for direction:</div>
+          <div class="box-2-heading">Check availbility for direction:</div>
           <form action="#">
-            <div class="form-group">
-              <div class="input-block">
+            <div class="one">
+              <div class="one-one">
                 <label for="from">From:</label>
                 <select id="from" name="from">
                   <option value="">Select a location...</option>
@@ -61,7 +62,7 @@
                   <option value="3">3</option>
                 </select>
               </div>
-              <div class="input-block">
+              <div class="one-two">
                 <label for="to">To:</label>
                 <select id="to" name="to">
                   <option value="">Select a location...</option>
@@ -72,26 +73,30 @@
               </div>
             </div>
 
-            <div class="form-group">
-              <div class="input-block">
+            <div class="two">
+              <div class="two-one">
                 <label for="departure-date">Departure Date:</label>
                 <input type="date" id="departure-date" name="departure-date" />
               </div>
-              <div class="input-block">
+              <div class="two-two">
                 <label for="return-date">Return Date:</label>
                 <input type="date" id="return-date" name="return-date" />
               </div>
             </div>
 
-            <div class="trip-type">
-              <label>
-                <input type="radio" name="trip-type" value="round" checked />
-                Round
-              </label>
-              <label>
-                <input type="radio" name="trip-type" value="oneway" />
-                Oneway
-              </label>
+            <div class="three">
+              <div>
+                <label
+                  ><input type="radio" name="trip-type" value="round" checked />
+                  Round</label
+                >
+              </div>
+              <div>
+                <label
+                  ><input type="radio" name="trip-type" value="oneway" />
+                  Oneway</label
+                >
+              </div>
               <button type="submit">Order Ticket Now</button>
             </div>
           </form>
