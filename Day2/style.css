@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: auto;
+  width: 800px;
+  background-color: aqua;
+}
+.container .one {
+  width: 100px;
+  background-color: red;
+  height: 100px;
+  width: 300px;
+  background-color: yellow;
+}
+.container .two {
+  width: 200px;
+  background-color: blue;
+  height: 100px;
+}
+.container .three {
+  width: 300px;
+  background-color: green;
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */

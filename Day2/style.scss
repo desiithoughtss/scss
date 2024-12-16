@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$width: 100px;
+
+@mixin colorWidthHeight($width, $height, $color) {
+  width: $width;
+  background-color: $color;
+  height: $height;
+}
+
+.container {
+  height: auto;
+  width: 800px;
+  background-color: aqua;
+
+  .one {
+    @include colorWidthHeight($width, 100px, red);
+    @if ($width == 100px) {
+      width: 300px;
+      background-color: yellow;
+    }
+  }
+  .two {
+    @include colorWidthHeight(200px, 100px, blue);
+  }
+  .three {
+    @include colorWidthHeight(300px, 100px, green);
+  }
+}
